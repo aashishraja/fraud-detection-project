@@ -1,0 +1,27 @@
+# Virtual Environments - Prevents Git tracking the venv directory itself
+venv/
+.venv/
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and Editor files (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+*.swp
+*~
+
+# Jupyter Notebook files and output
+.ipynb_checkpoints
+*.*.ipynb
+
+# Data and Model Storage - Only track these if they are small!
+# Large files should be explicitly managed with LFS or ignored.
+data/
+models/
+*.csv
+*.h5
+*.pkl
